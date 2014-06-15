@@ -37,7 +37,7 @@ total_per_day <- ddply(data[!is.na(data$steps),], .(date), summarise, steps=sum(
 ```
   
 **Plot the histogram of the total number of steps taken each day**
-```{r histogram1, fig.height=5, fig.width=10}
+```{r hist1, fig.height=5, fig.width=10}
 ## Dataset for the total number of steps taken per day created above is used to plot the histogram here.
 with(total_per_day, hist(
                         total_per_day$steps,

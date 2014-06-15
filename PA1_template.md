@@ -58,7 +58,7 @@ with(total_per_day, hist(
                         ) ) 
 ```
 
-![plot of chunk histogram1](figure/histogram1.png) 
+![plot of chunk hist1](figure/hist1.png) 
   
 **Calculate and report the mean and median total number of steps taken per day**
 
